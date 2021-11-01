@@ -1,0 +1,57 @@
+head {
+    display: none;
+}
+@media (max-width: 1000px)
+.menu {
+    perspective: 800px;
+}
+.top {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas:
+        "hero hero cta1"
+        "hero hero cta2";
+}
+body {
+    font-size: 15px;
+    background-image: url(https://jolly-kalam-23776e.netlify.app/restaurantwebsite/images/queso-taco.png), linear-gradient(110deg, #f93d66, #6d47d9);
+    background-size: 340px, auto;
+    min-height: calc(100vh - 100px);
+    margin: 50px;
+    background-attachment: fixed;
+    letter-spacing: -1px;
+    font-size: 15px;
+}
+.wrapper {
+    display: grid;
+    grid-gap: 20px;
+}
+div{
+    display: block;
+}
+.menu{
+    perspective: 800px;
+}
+nav{
+    display: block;
+}
+:root {
+    --yellow: #ffc600;
+    --black: #272727;
+}
+ html {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 900;
+    font-size: 10px;
+    color: var(--black);
+    text-shadow: 0 2px 0 rgb(0 0 0 / 7%);
+    html
+}
+ button {
+    -webkit-writing-mode: horizontal-tb !important;
+}
+
+
+
+
